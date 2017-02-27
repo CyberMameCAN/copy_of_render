@@ -1,0 +1,154 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+
+#whitebase {
+	margin: 400px auto 300px;
+	padding: 0;
+	width: 100%;
+	position: relative;
+	
+}
+
+.content_rapper {
+	margin: 0 auto;
+	padding: 1em;
+	width: 100%;
+}
+.flowing-rapper {
+	display: flex;	/* 横並びにする */
+	margin: auto;
+	width: 900px;
+}
+
+#header {
+	background: url(../images/kayak.jpg) #fff no-repeat right center;
+	background-size: cover;
+	height: 400px;
+	z-index: -1;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+#header h1,
+#header p {
+	color: #fff;
+}
+#header h1 {
+	font-size: 50px;
+	line-height: 1.25em;
+	margin-bottom: 0.5em;
+}
+#header h1 span {
+	font-size: 30px;
+}
+#header p {
+	font-size: 20px;
+}
+#nav {
+	background-color: #56169e;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 1000;
+}
+/* ナビメニューの初期状態 */
+.nav_init {
+	/*top: 400px;*/
+	position: absolute;
+}
+/* ナビメニューの固定状態 */
+.nav_fix {
+	position: fixed;
+  top: 0;
+}
+#nav ul {
+	margin: auto;
+	width: 100%;
+}
+#nav li {
+	display: inline-block;
+  text-align: center;
+  margin: 0 auto 0 0.25em;
+}
+#nav li#nav_home {
+	border-top: 6px solid #fff;
+	color: #fff;
+  padding: 10px;
+  background: rgba(0,0,0,0.3);
+  width: 200px;
+}
+#nav li.nav_menu {
+	border-top: 6px solid #d35400;
+  padding: 10px;
+  width: 100px;
+}
+#nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#contents {
+	background-color: #fff;
+	width: 100%;
+	position: relative;
+}
+
+.fh5co-hero {
+	position: relative;
+}
+.fh5co-cover {
+	padding: 0;
+	height: 500px;
+	
+}
+.fh5co-blog {
+	/*display: inline-block;
+	width: 30%;
+	overflow: hidden;
+	height: 300px;*/
+	display: flex;
+	margin: 0 6px 12px;
+	padding: 6px;
+	border-radius: 3px;
+	flex: 1;
+}
+
+#footer {
+	
+	background: url(../images/egingerz.png) #fff no-repeat center center;
+	background-size: cover;
+	bottom: 0;
+  height: 300px;
+	z-index: -1;
+	position: fixed;
+	width: 100%;
+	text-align: center
+}
+
+.desc {
+  top: 30%;
+  position: absolute;
+  /*width: 100%;*/
+  z-index: 2;
+  color: #fff;
+  text-align: left;
+}
+.desc h2 {
+	font-size: 600%;
+}
+.desc span {
+	font-size: 300%;
+}
+
+.animate-box {
+  opacity: 0;
+}
